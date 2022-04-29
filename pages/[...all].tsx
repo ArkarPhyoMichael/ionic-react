@@ -7,7 +7,6 @@ const App = dynamic(() => import("../components/AppShell"), { ssr: false });
 
 const Index: FC<IndexProps> = () => {
   return <App />;
-  //   return <div className="">Index page</div>;
 };
 
 export default Index;
